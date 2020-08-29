@@ -69,5 +69,6 @@ namespace QuizPedroChaparro
             MainWindow w = (MainWindow)Window.GetWindow(this);
             w.frameMain.NavigationService.Navigate(new Login());
         }
+ 
     }
 }
