@@ -24,5 +24,15 @@ namespace QuizPedroChaparro
         {
             InitializeComponent();
         }
+
+        private void Frame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            frameMain.NavigationService.Navigate(new Login());
+        }
     }
 }
